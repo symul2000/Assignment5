@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 23, 2025 at 07:42 PM
+-- Generation Time: Feb 24, 2025 at 06:45 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -46,16 +46,17 @@ CREATE TABLE `cars` (
 --
 
 INSERT INTO `cars` (`id`, `name`, `brand`, `model`, `year`, `car_type`, `daily_rent_price`, `availability`, `image`, `created_at`, `updated_at`) VALUES
-(1, 'Toyota Corolla', 'Toyota', 'Corolla', 2022, 'Sedan', 3500.00, 1, '1.jpg', '2025-02-16 17:54:39', '2025-02-16 13:44:10'),
-(2, 'Honda Civic', 'Honda', 'Civic', 2021, 'Sedan', 4000.00, 1, '2.jpg', '2025-02-16 17:54:39', '2025-02-16 17:54:39'),
-(3, 'Nissan X-Trail', 'Nissan', 'X-Trail', 2020, 'SUV', 5500.00, 1, '3.jpg', '2025-02-16 17:54:39', '2025-02-16 17:54:39'),
-(4, 'Mitsubishi Pajero', 'Mitsubishi', 'Pajero', 2019, 'SUV', 6000.00, 1, '4.jpg', '2025-02-16 17:54:39', '2025-02-16 17:54:39'),
-(5, 'Suzuki Swift', 'Suzuki', 'Swift', 2023, 'Hatchback', 3000.00, 1, '5.jpg', '2025-02-16 17:54:39', '2025-02-16 17:54:39'),
-(6, 'Ford Mustang', 'Ford', 'Mustang', 2022, 'Sports', 10000.00, 1, '6.jpg', '2025-02-16 17:54:39', '2025-02-16 17:54:39'),
-(7, 'BMW X5', 'BMW', 'X5', 2021, 'Luxury SUV', 12000.00, 1, '7.jpg', '2025-02-16 17:54:39', '2025-02-16 17:54:39'),
-(8, 'Mercedes-Benz C-Class', 'Mercedes-Benz', 'C-Class', 2023, 'Luxury Sedan', 15000.00, 1, '8.jpg', '2025-02-16 17:54:39', '2025-02-16 17:54:39'),
-(9, 'Hyundai Tucson', 'Hyundai', 'Tucson', 2020, 'SUV', 5000.00, 1, '9.jpg', '2025-02-16 17:54:39', '2025-02-16 17:54:39'),
-(10, 'Kia Sportage', 'Kia', 'Sportage', 2021, 'SUV', 4800.00, 1, '10.jpg', '2025-02-16 17:54:39', '2025-02-16 17:54:39');
+(12, 'HyperDrive X1', 'Future Motors', 'X1', 2025, 'Electric, Sports Sedan', 1500.00, 1, 'cars/YY1s37xRknFOi7SfqeNrEmEIT2IO3xQKio3oZTEu.jpg', '2025-02-24 05:45:07', '2025-02-24 05:45:07'),
+(13, 'Velocity R8', 'SpeedTech', 'R8', 2024, 'Hybrid, Coupe', 1800.00, 1, 'cars/kWBpDaKjep3Vq5294cWi3mvzPK2GK0CgkWtgWy1x.jpg', '2025-02-24 05:49:37', '2025-02-24 05:49:37'),
+(14, 'Thunderbolt Z', 'PowerDrive', 'Z', 2023, 'Gasoline, Muscle Car', 1500.00, 1, 'cars/a8QSI3IKdaIoTf2bObUhWAcb0SMCNyudGhR9kqvs.jpg', '2025-02-24 05:50:35', '2025-02-24 05:50:35'),
+(15, 'CityGlide 5000', 'Urban Motors', '5000', 2022, 'Electric, City Car', 1900.00, 1, 'cars/ES1g9vSxHZg7lHllPKjKR2OqkUcbWO3dl6sn1tcf.jpg', '2025-02-24 05:51:12', '2025-02-24 05:51:12'),
+(16, 'AeroSpeed 7', 'SkyCars', '7', 2026, 'Autonomous, Sports', 2200.00, 1, 'cars/5ZtOHAkr12UVRwt1uXJFAGubmNHe7q7vgeYgbUQn.jpg', '2025-02-24 05:51:57', '2025-02-24 05:51:57'),
+(17, 'Elite GT', 'LuxeDrive', 'GT', 2025, 'Luxury, Convertible', 2300.00, 1, 'cars/X0fVihVQHndZWct8uQUNLK4peuBXTUhXX2rZw1gJ.jpg', '2025-02-24 05:52:42', '2025-02-24 05:52:42'),
+(18, 'TurboNova', 'Nova Motors', 'T3', 2024, 'Electric, SUV', 1600.00, 1, 'cars/B7okFCuqAUPwoZUmhFHc0RPln4CzMovUkLZ1CSkg.jpg', '2025-02-24 05:53:24', '2025-02-24 05:53:24'),
+(19, 'Rover X9', 'AllRoads', 'X9', 2022, 'Hybrid, Off-road SUV', 1800.00, 1, 'cars/wsh6uXpd7vsfdTxvGKXlMk2QgERMkg9cZLAAfoeF.jpg', '2025-02-24 05:54:16', '2025-02-24 05:54:16'),
+(20, 'Vision V', 'Clearview', 'V', 2025, 'Electric, Sedan', 1500.00, 1, 'cars/P6YTZaLhya1VEXCPYtd2GwIb1l4SLwScQVDYhFLu.jpg', '2025-02-24 05:54:59', '2025-02-24 05:54:59'),
+(21, 'Phantom P1', 'Phantom Motors', 'P1', 2024, 'Gasoline, Luxury Sedan', 1700.00, 1, 'cars/xlOUnpc1eOnzsK1SlBBBsVB1L0OVh1wgXNyVsgP7.jpg', '2025-02-24 05:55:43', '2025-02-24 05:55:43'),
+(22, 'new 1', 'new 1', '2000', 2000, 'gasolin', 1000.00, 1, 'cars/JlnO4OaGua7YGjW3lk57sTLaQBUrHA3k8xj458F6.jpg', '2025-02-24 06:38:17', '2025-02-24 06:38:51');
 
 -- --------------------------------------------------------
 
@@ -190,7 +191,7 @@ CREATE TABLE `rentals` (
 --
 
 INSERT INTO `rentals` (`id`, `user_id`, `car_id`, `start_date`, `end_date`, `total_cost`, `status`, `created_at`, `updated_at`, `cancellable`) VALUES
-(28, 6, 1, '2025-02-25', '2025-02-26', 100.00, 'Cancelled', '2025-02-23 12:28:25', '2025-02-23 12:30:26', 0);
+(29, 6, 12, '2025-02-24', '2025-02-25', 100.00, 'Ongoing', '2025-02-24 05:58:34', '2025-02-24 05:58:34', 1);
 
 -- --------------------------------------------------------
 
@@ -300,7 +301,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `cars`
 --
 ALTER TABLE `cars`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 
 --
 -- AUTO_INCREMENT for table `contacts`
@@ -330,7 +331,7 @@ ALTER TABLE `personal_access_tokens`
 -- AUTO_INCREMENT for table `rentals`
 --
 ALTER TABLE `rentals`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
 
 --
 -- AUTO_INCREMENT for table `users`
