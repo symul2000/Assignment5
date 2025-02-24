@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 24, 2025 at 06:45 PM
+-- Generation Time: Feb 24, 2025 at 07:23 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -55,8 +55,7 @@ INSERT INTO `cars` (`id`, `name`, `brand`, `model`, `year`, `car_type`, `daily_r
 (18, 'TurboNova', 'Nova Motors', 'T3', 2024, 'Electric, SUV', 1600.00, 1, 'cars/B7okFCuqAUPwoZUmhFHc0RPln4CzMovUkLZ1CSkg.jpg', '2025-02-24 05:53:24', '2025-02-24 05:53:24'),
 (19, 'Rover X9', 'AllRoads', 'X9', 2022, 'Hybrid, Off-road SUV', 1800.00, 1, 'cars/wsh6uXpd7vsfdTxvGKXlMk2QgERMkg9cZLAAfoeF.jpg', '2025-02-24 05:54:16', '2025-02-24 05:54:16'),
 (20, 'Vision V', 'Clearview', 'V', 2025, 'Electric, Sedan', 1500.00, 1, 'cars/P6YTZaLhya1VEXCPYtd2GwIb1l4SLwScQVDYhFLu.jpg', '2025-02-24 05:54:59', '2025-02-24 05:54:59'),
-(21, 'Phantom P1', 'Phantom Motors', 'P1', 2024, 'Gasoline, Luxury Sedan', 1700.00, 1, 'cars/xlOUnpc1eOnzsK1SlBBBsVB1L0OVh1wgXNyVsgP7.jpg', '2025-02-24 05:55:43', '2025-02-24 05:55:43'),
-(22, 'new 1', 'new 1', '2000', 2000, 'gasolin', 1000.00, 1, 'cars/JlnO4OaGua7YGjW3lk57sTLaQBUrHA3k8xj458F6.jpg', '2025-02-24 06:38:17', '2025-02-24 06:38:51');
+(21, 'Phantom P1', 'Phantom Motors', 'P1', 2024, 'Gasoline, Luxury Sedan', 1700.00, 1, 'cars/xlOUnpc1eOnzsK1SlBBBsVB1L0OVh1wgXNyVsgP7.jpg', '2025-02-24 05:55:43', '2025-02-24 05:55:43');
 
 -- --------------------------------------------------------
 
